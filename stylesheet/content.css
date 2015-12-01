@@ -1,0 +1,291 @@
+.post_mortems {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.post_mortems {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.daily_journals {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.daily_journals {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.design_documentation {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.design_documentation {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.library_management {
+    background-image:url('../image/library_management/portfolioAstinusWireflow.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.library_management {
+    background-image:url('../image/library_management/portfolioAstinusWireflow.png');
+    background-position-y: center;
+}
+
+/* --------- */
+
+.caloric_intake {
+    background-image:url('../image/caloric_intake/screen.png');
+    background-position-x: left;
+}
+
+.content .hero_image.caloric_intake {
+    background-image:url('../image/caloric_intake/screen.png');
+}
+
+/* --------- */
+
+.knights_old_republic {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.knights_old_republic {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.design_test {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.design_test {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.interactioncraft {
+    background-image:url('../image/interactioncraft/icraft_hero.jpg');
+    background-position-x: 90%;
+}
+
+.content .hero_image.interactioncraft {
+    background-image:url('../image/interactioncraft/icraft_hero.jpg');
+}
+
+/* --------- */
+
+.battle_net {
+    background-image:url('../image/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.battle_net {
+    background-image:url('../image/hero_protoheroes.png');
+}
+
+/* --------- */
+
+.heroes_of_the_storm {
+    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.png');
+    background-position-x: 20%;
+}
+
+.content .hero_image.heroes_of_the_storm {
+    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.png');
+    background-position-y: bottom;
+}
+
+/* --------- */
+
+.clash_of_clans {
+    background-image:url('../image/clash_of_clans/hero_protoclash.png');
+    background-position-x: left;
+}
+
+.content .hero_image.clash_of_clans {
+    background-image:url('../image/clash_of_clans/hero_protoclash.png');
+}
+
+/* --------- */
+
+.ad_server {
+    background-image:url('../image/ad_server/hero_ad_server.png');
+    background-position-x: left;
+    background-size: 150%;
+}
+
+.content .hero_image.ad_server {
+    background-image:url('../image/ad_server/ad_server_visual_proposal_franklin andrade_2013.png');
+    background-position-y: 20%;
+    
+}
+
+@media(max-width: 960px) {
+    .ad_server {
+        background-position-y: 0%;
+        background-size: 100%;
+    }
+}
+
+/* --------- */
+
+.e-learning {
+    background-image:url('../image/e-learning/hero.png');
+    background-position-x: center;
+    background-size: cover;
+}
+
+.content .hero_image.e-learning {
+    background-image:url('../image/e-learning/hero.png');
+    background-position-y: 27%;
+    
+}
+
+@media(max-width: 960px) {
+    .e-learning {
+        background-size: 100%;
+    }
+}
+
+/* --------- */
+
+.game_home_redesign {
+    background-image:url('../image/game_home_redesign/map_interaction01-1.png');
+    background-position-x: left;
+    background-size: 120%
+}
+
+.content .hero_image.game_home_redesign {
+    background-image:url('../image/game_home_redesign/map_interaction01-1.png');
+    background-position-y: 0%;
+    
+}
+
+/* --------- */
+
+.game_journey_map {
+    background-image:url('../image/game_journey_map/hero.png');
+    background-size: cover;
+}
+
+.content .hero_image.game_journey_map {
+    background-image:url('../image/game_journey_map/hero.png');
+    background-position-y: center;
+    background-size: 200%;
+    
+}
+
+/* --------- */
+
+.game_visual_design_guide {
+    background-image:url('../image/game_visual_design_guide/vdg_step01.jpg');
+    background-size: cover;
+}
+
+.content .hero_image.game_visual_design_guide {
+    background-image:url('../image/game_visual_design_guide/vdg_step01.jpg');
+    background-position-y: 20%;
+    
+}
+
+/* --------- */
+
+.interview_test {
+    background-image:url('../image/interview_test/Barracks.png');
+    background-size: cover;
+}
+
+.content .hero_image.interview_test {
+    background-image:url('../image/interview_test/Barracks.png');
+    background-position-y: 20%;
+    
+}
+
+/* --------- */
+
+.strategy_game {
+    background-image:url('../image/strategy_game/game_wf04.png');
+    background-position-x:left;
+}
+
+.content .hero_image.strategy_game {
+    background-image:url('../image/strategy_game/game_wf04.png');
+    background-position-y: 10%;
+    
+}
+
+/* --------- */
+
+.strategy_game_handout {
+    background-image:url('../image/strategy_game_handout/diptych02.png');
+    background-size: 150%;
+    background-position-x: right;
+}
+
+.content .hero_image.strategy_game_handout {
+    background-image:url('../image/strategy_game_handout/diptych02.png');
+    background-position-y: 20%;
+}
+
+/* --------- */
+
+.taxes_app {
+    background-image:url('../image/taxes_app/hero.png');
+    background-size: 150%;
+    background-position-x: left;
+}
+
+.content .hero_image.taxes_app {
+    background-image:url('../image/taxes_app/hero.png');
+    background-position-y: 10%;
+}
+
+/* --------- */
+
+.warehouse_admin_app {
+    background-image:url('../image/warehouse_admin_app/wfspec02.png');
+    background-size: 150%;
+    background-position-x: left;
+}
+
+.content .hero_image.warehouse_admin_app {
+    background-image:url('../image/warehouse_admin_app/wfspec02.png');
+    background-position-y: 11%;
+}
+
+/* --------- */
+
+.win-8-touch-apps {
+    background-image:url('../image/win-8-touch-apps/hero.png');
+    background-position-x: center;
+}
+
+.content .hero_image.win-8-touch-apps {
+    background-image:url('../image/win-8-touch-apps/hero.png');
+    background-position-y: 20%;
+}
+
+/* --------- */
+
+.xbox360-video-on-demand {
+    background-image:url('../image/xbox360-video-on-demand/xbox_wf02.png');
+}
+
+.content .hero_image.xbox360-video-on-demand {
+    background-image:url('../image/xbox360-video-on-demand/xbox_wf02.png');
+    background-position-y: center;
+    background-size: 110%;
+}

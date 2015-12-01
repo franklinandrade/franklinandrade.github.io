@@ -1,0 +1,297 @@
+body {
+  background-color: rgb(61, 73, 92);
+  font: 400 1em/1.38 Montserrat;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper_league p {
+  margin-bottom: 1em;
+}
+
+.amount_gold_cost {
+  position: absolute;
+  top: 33px;
+  left: 43px;
+  z-index: 4;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1.5em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.amount_trophies {
+  position: absolute;
+  top: 30px;
+  left: 1px;
+  z-index: 10;
+  width: 116px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 1.5em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.box {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: 8;
+  width: 172px;
+  height: 35px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.disc {
+  position: absolute;
+  top: 19px;
+  left: 132px;
+  z-index: 9;
+  width: 55px;
+  height: 55px;
+  border: 2px solid #222222;
+  border-radius: 55px;
+  background: hsl(40, 100%, 50%);
+  background: url('../images/1439588158_41.Trophy.png'), -webkit-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),    -moz-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),      -o-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),     -ms-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),         linear-gradient(360deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background-repeat: no-repeat, repeat;
+  background-size: 35px auto, 100% 100%;
+  background-position: center center, 0% 0%;
+  background-attachment: scroll, scroll;
+}
+
+.find_match {
+  display: block;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  z-index: 3;
+  width: 200px;
+  height: 83px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: hsl(40, 100%, 50%);
+  background: -webkit-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background:    -moz-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background:      -o-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background:     -ms-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background:         linear-gradient(360deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  box-shadow: 0 0 0 2px rgba(255, 245, 176, 0.51) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1.563em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.label_match_cost {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  z-index: 5;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.label_multiplayer {
+  position: absolute;
+  top: 84px;
+  left: 8px;
+  z-index: 7;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 1.875em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.label_view_clans_players {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 0.8;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.label_your_trophies {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  z-index: 11;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 0.875em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.league {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 284px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: hsl(40, 100%, 50%);
+  background: url('../images/1439588158_41.Trophy.png'), -webkit-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),    -moz-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),      -o-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),     -ms-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background: url('../images/1439588158_41.Trophy.png'),         linear-gradient(360deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%) #ffb800;
+  background-repeat: no-repeat, repeat;
+  background-size: 34px auto, 100% 100%;
+  background-position: center center, 0% 0%;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 0 0 2px rgba(255, 245, 176, 0.51) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font: 400 1em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.wrapper_find_match {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 200px;
+  height: 164px;
+  margin: auto;
+}
+
+.wrapper_league {
+  position: absolute;
+  bottom: 25px;
+  right: 2.4999999999%;
+  z-index: 2;
+  width: 334px;
+  height: 50px;
+}
+
+.wrapper_trophies_multiplayer {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 187px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.wrapper_your_trophies {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+  height: 74px;
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .wrapper_find_match {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 163px;
+    height: 149px;
+    margin: auto;
+  }
+
+  .wrapper_find_match .amount_gold_cost {
+    top: 29px;
+    left: 36px;
+    font-size: 1.429em;
+  }
+
+  .wrapper_find_match .find_match {
+    top: 66px;
+    width: 163px;
+    font-size: 1.429em;
+  }
+
+  .wrapper_find_match .label_match_cost {
+    left: 40px;
+    font-size: 14px;
+  }
+
+  .wrapper_league {
+    bottom: 20px;
+    width: 304px;
+    height: 45px;
+  }
+
+  .wrapper_league .label_view_clans_players {
+    font-size: 14px;
+  }
+
+  .wrapper_league .league {
+    left: 259px;
+    width: 45px;
+    height: 45px;
+    background-size: 27px auto, 100% 100%;
+    font-size: 1.143em;
+  }
+
+  .wrapper_trophies_multiplayer {
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 107px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .wrapper_trophies_multiplayer .label_multiplayer {
+    top: 73px;
+    left: 4px;
+    font-size: 1.786em;
+  }
+
+  .wrapper_trophies_multiplayer .wrapper_your_trophies {
+    width: 150px;
+    height: 64px;
+  }
+
+  .wrapper_your_trophies .amount_trophies {
+    top: 31px;
+    left: 0;
+    width: 88px;
+    font-size: 1.143em;
+  }
+
+  .wrapper_your_trophies .box {
+    top: 28px;
+    width: 127px;
+    height: 28px;
+  }
+
+  .wrapper_your_trophies .disc {
+    left: 105px;
+    width: 45px;
+    height: 45px;
+    background-size: 30px auto, 100% 100%;
+  }
+
+  .wrapper_your_trophies .label_your_trophies {
+    left: 28px;
+    font-size: 0.857em;
+  }
+}

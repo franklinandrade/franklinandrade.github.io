@@ -1,0 +1,8 @@
+Ok, I've selected a few key screens, this is the old UI, so there's no problem in sharing it with you only for the purpose of the interviewing process.
+
+They are in "Retina" size, so if you have any new iPad around you can see it directly on the device, instead of imagining it, I kept working on Photoshop and testing the design on the devices after having some progress.
+
+The process here was quite straightforward, we had a roadmap of features that were going to be developed, so it was key to maintain the screen unclutered and give most of the screen for the map and the units/buildings (the game is very similar to clash of clans) while acknowledging space for new interface controls and such. 
+
+These graphics + aesthetics went through several iterations, and are not current with what will be released, mostly because of testing with real players. 
+

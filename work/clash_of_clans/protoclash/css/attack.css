@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(61, 73, 92);
+  font-size: 1em;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: hsl(349, 96%, 28%);
+  background: url('../images/1439858933_cross-24.png'), -webkit-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),    -moz-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),      -o-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),     -ms-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),         linear-gradient(360deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background-repeat: no-repeat, repeat;
+  background-size: 35px auto, 100% 100%;
+  background-position: center center, 0% 0%;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.26) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font: 400 1em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  overflow: hidden;
+}
+
+.wrapper-1 {
+  left: 50%;
+  z-index: 1;
+  border-left: 3px solid black;
+}
+
+.wrapper-2 {
+  left: 0;
+  border-right: 3px solid black;
+}
+
+@media(max-width: 800px) {
+  .close {
+    top: 10px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    background-size: 30px auto, 100% 100%;
+  }
+
+  .wrapper-2 {
+    top: -1px;
+  }
+}

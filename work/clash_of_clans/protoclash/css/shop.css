@@ -1,0 +1,453 @@
+body {
+  background-color: rgb(61, 73, 92);
+  font: 400 1em/1.38 Montserrat;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+
+}
+
+.bar_bottom {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  z-index: 1;
+  width: 98%;
+  height: 90px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: #000000;
+  background: -webkit-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:    -moz-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:      -o-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:     -ms-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:         linear-gradient(360deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bar_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 70px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: #000000;
+  background: -webkit-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:    -moz-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:      -o-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:     -ms-linear-gradient(90deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  background:         linear-gradient(360deg, #6e654e 0%, #c7c0af 75.35714285714286%, #e4ddd0 100%) #888888;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.blackgoo_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 140px;
+  height: 55px;
+}
+
+.blackgoo_info .box {
+  z-index: 6;
+  width: 96px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.blackgoo_info .disc {
+  left: 85px;
+  z-index: 7;
+  background-image: url('../images/1439748693_128.png'), -webkit-linear-gradient(90deg, rgb(27, 40, 64) 0%, rgb(46, 64, 96) 35.714285714285715%, rgb(60, 82, 122) 100%);
+  background-image: url('../images/1439748693_128.png'),    -moz-linear-gradient(90deg, rgb(27, 40, 64) 0%, rgb(46, 64, 96) 35.714285714285715%, rgb(60, 82, 122) 100%);
+  background-image: url('../images/1439748693_128.png'),      -o-linear-gradient(90deg, rgb(27, 40, 64) 0%, rgb(46, 64, 96) 35.714285714285715%, rgb(60, 82, 122) 100%);
+  background-image: url('../images/1439748693_128.png'),     -ms-linear-gradient(90deg, rgb(27, 40, 64) 0%, rgb(46, 64, 96) 35.714285714285715%, rgb(60, 82, 122) 100%);
+  background-image: url('../images/1439748693_128.png'),         linear-gradient(360deg, rgb(27, 40, 64) 0%, rgb(46, 64, 96) 35.714285714285715%, rgb(60, 82, 122) 100%);
+  background-size: 40px auto, 100% 100%;
+  background-color: rgb(46, 64, 96);
+}
+
+.blackgoo_qtty {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  z-index: 8;
+  width: 70px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.box {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  height: 31px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 22;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: hsl(349, 96%, 28%);
+  background: url('../images/1439858933_cross-24.png'), -webkit-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),    -moz-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),      -o-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),     -ms-linear-gradient(90deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background: url('../images/1439858933_cross-24.png'),         linear-gradient(360deg, hsl(349, 96%, 28%) 0%, hsl(353, 70%, 50%) 75.35714285714286%, hsl(355, 91%, 60%) 100%) hsl(0, 70%, 40%);
+  background-repeat: no-repeat, repeat;
+  background-size: 35px auto, 100% 100%;
+  background-position: center center, 0% 0%;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.26) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font: 400 1em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.diamond_info {
+  position: absolute;
+  top: 0;
+  left: 517px;
+  z-index: 5;
+  width: 134px;
+  height: 55px;
+}
+
+.diamond_info .box {
+  z-index: 2;
+  width: 89px;
+  border-width: 1px;
+  border-color: rgb(216, 216, 216);
+}
+
+.diamond_info .disc {
+  left: 79px;
+  z-index: 3;
+  background-image: url('../images/1439748454_diamond.png'), -webkit-linear-gradient(90deg, rgb(18, 128, 8) 0%, rgb(15, 185, 0) 75.35714285714286%, rgb(85, 217, 31) 100%);
+  background-image: url('../images/1439748454_diamond.png'),    -moz-linear-gradient(90deg, rgb(18, 128, 8) 0%, rgb(15, 185, 0) 75.35714285714286%, rgb(85, 217, 31) 100%);
+  background-image: url('../images/1439748454_diamond.png'),      -o-linear-gradient(90deg, rgb(18, 128, 8) 0%, rgb(15, 185, 0) 75.35714285714286%, rgb(85, 217, 31) 100%);
+  background-image: url('../images/1439748454_diamond.png'),     -ms-linear-gradient(90deg, rgb(18, 128, 8) 0%, rgb(15, 185, 0) 75.35714285714286%, rgb(85, 217, 31) 100%);
+  background-image: url('../images/1439748454_diamond.png'),         linear-gradient(360deg, rgb(18, 128, 8) 0%, rgb(15, 185, 0) 75.35714285714286%, rgb(85, 217, 31) 100%);
+  background-size: 44px auto, 100% 100%;
+  background-color: rgb(15, 185, 0);
+}
+
+.diamond_qtty {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 4;
+  width: 55px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.disc {
+  position: absolute;
+  top: 0;
+  width: 55px;
+  height: 55px;
+  border: 2px solid #222222;
+  border-radius: 55px;
+  background-repeat: no-repeat, repeat;
+  background-position: center center, 0% 0%;
+  background-attachment: scroll, scroll;
+}
+
+.gold_info {
+  position: absolute;
+  top: 0;
+  left: 340px;
+  z-index: 17;
+  width: 157px;
+  height: 55px;
+}
+
+.gold_info .box {
+  z-index: 14;
+  width: 112px;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.gold_info .disc {
+  left: 102px;
+  z-index: 15;
+  background-image: url('../images/1439748663_money.png'), -webkit-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%);
+  background-image: url('../images/1439748663_money.png'),    -moz-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%);
+  background-image: url('../images/1439748663_money.png'),      -o-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%);
+  background-image: url('../images/1439748663_money.png'),     -ms-linear-gradient(90deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%);
+  background-image: url('../images/1439748663_money.png'),         linear-gradient(360deg, hsl(40, 100%, 50%) 0%, #ffc11f 75.35714285714286%, #ffd15c 100%);
+  background-size: 33px auto, 100% 100%;
+  background-color: #ffb800;
+}
+
+.gold_qtty {
+  position: absolute;
+  top: 18px;
+  left: 3px;
+  z-index: 16;
+  width: 96px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.label_shop {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  z-index: 21;
+  margin: 0 auto;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 2em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.pinkgoo_info {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  z-index: 13;
+  width: 160px;
+  height: 55px;
+}
+
+.pinkgoo_info .box {
+  z-index: 10;
+  width: 115px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.pinkgoo_info .disc {
+  left: 105px;
+  z-index: 11;
+  background-image: url('../images/1439748693_128.png'), -webkit-linear-gradient(90deg, rgb(122, 15, 70) 0%, hsl(308, 72%, 47%) 75.35714285714286%, hsl(320, 82%, 59%) 100%);
+  background-image: url('../images/1439748693_128.png'),    -moz-linear-gradient(90deg, rgb(122, 15, 70) 0%, hsl(308, 72%, 47%) 75.35714285714286%, hsl(320, 82%, 59%) 100%);
+  background-image: url('../images/1439748693_128.png'),      -o-linear-gradient(90deg, rgb(122, 15, 70) 0%, hsl(308, 72%, 47%) 75.35714285714286%, hsl(320, 82%, 59%) 100%);
+  background-image: url('../images/1439748693_128.png'),     -ms-linear-gradient(90deg, rgb(122, 15, 70) 0%, hsl(308, 72%, 47%) 75.35714285714286%, hsl(320, 82%, 59%) 100%);
+  background-image: url('../images/1439748693_128.png'),         linear-gradient(360deg, rgb(122, 15, 70) 0%, hsl(308, 72%, 47%) 75.35714285714286%, hsl(320, 82%, 59%) 100%);
+  background-size: 40px auto, 100% 100%;
+  background-color: hsl(308, 72%, 47%);
+}
+
+.pinkgoo_qtty {
+  position: absolute;
+  top: 18px;
+  left: 9px;
+  z-index: 12;
+  width: 91px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.shop_contents {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.wrapper_bar_bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  z-index: 19;
+  width: 100%;
+  height: 90px;
+}
+
+.wrapper_bar_top {
+  position: absolute;
+  top: 10px;
+  left: 1%;
+  z-index: 23;
+  width: 98%;
+  height: 70px;
+}
+
+.wrapper_resources {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  z-index: 18;
+  width: 651px;
+  height: 55px;
+  margin: 0 auto;
+}
+
+@media(max-width: 800px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .blackgoo_info .blackgoo_qtty {
+    top: 14px;
+    left: 5px;
+    width: 66px;
+    font-size: 14px;
+  }
+
+  .blackgoo_info .box {
+    top: 8px;
+    width: 113px;
+    height: 28px;
+  }
+
+  .blackgoo_info .disc {
+    left: 78px;
+    width: 45px;
+    height: 45px;
+    background-size: 30px auto, 100% 100%;
+  }
+
+  .diamond_info .box {
+    top: 9px;
+    width: 81px;
+    height: 28px;
+  }
+
+  .diamond_info .diamond_qtty {
+    top: 14px;
+    left: 4px;
+    width: 59px;
+    font-size: 14px;
+  }
+
+  .diamond_info .disc {
+    left: 69px;
+    width: 45px;
+    height: 45px;
+    background-size: 34px auto, 100% 100%;
+  }
+
+  .gold_info .box {
+    top: 9px;
+    left: 1px;
+    width: 107px;
+    height: 28px;
+  }
+
+  .gold_info .disc {
+    left: 99px;
+    width: 45px;
+    height: 45px;
+    background-size: 28px auto, 100% 100%;
+  }
+
+  .pinkgoo_info .box {
+    top: 8px;
+    width: 107px;
+    height: 28px;
+  }
+
+  .pinkgoo_info .disc {
+    left: 98px;
+    width: 45px;
+    height: 45px;
+    background-size: 30px auto, 100% 100%;
+  }
+
+  .gold_info .gold_qtty,
+  .pinkgoo_info .pinkgoo_qtty {
+    top: 14px;
+    left: 0;
+    width: 93px;
+    font-size: 14px;
+  }
+
+  .shop_contents {
+    top: 75px;
+  }
+
+  .wrapper_bar_bottom,
+  .wrapper_bar_bottom .bar_bottom {
+    height: 70px;
+  }
+
+  .wrapper_bar_bottom .wrapper_resources {
+    top: 13px;
+    left: 0;
+    right: 0;
+    width: 557px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .wrapper_bar_top,
+  .wrapper_bar_top .bar_top {
+    height: 55px;
+  }
+
+  .wrapper_bar_top .close {
+    top: 5px;
+    right: 5px;
+    width: 45px;
+    height: 45px;
+    background-size: 30px auto, 100% 100%;
+    font-size: 1.143em;
+  }
+
+  .wrapper_bar_top .label_shop {
+    top: 12px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.714em;
+  }
+
+  .wrapper_resources .blackgoo_info {
+    width: 123px;
+    height: 45px;
+  }
+
+  .wrapper_resources .diamond_info {
+    left: 442px;
+    width: 115px;
+    height: 45px;
+  }
+
+  .wrapper_resources .gold_info {
+    left: 288px;
+    width: 144px;
+    height: 45px;
+  }
+
+  .wrapper_resources .pinkgoo_info {
+    left: 133px;
+    width: 145px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-title" content="Clash Prototype">
+  <meta name="format-detection" content="telephone=no">
+  <title>Homebase Screen - Clash Prototype</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/map_build-grid.css">
+  <link rel="stylesheet" href="css/map_build.css">
+
+</head>
+<body class="body page-map_build clearfix">
+  <div class="wrapper_top">
+    <div class="wrap_topleft">
+      <div class="player_info">
+        <p class="name">PlayerName</p>
+        <p class="level">00</p>
+        <div class="blue_disc"></div>
+        <p class="level_exp">0 000 000</p>
+        <div class="box"></div>
+        <button class="get_player_info"></button>
+      </div>
+      <div class="trophy_info">
+        <button class="league"></button>
+        <p class="trophies">0 000 000</p>
+        <div class="box"></div>
+      </div>
+      <button class="mail"></button>
+    </div>
+    <div class="wrap_center">
+      <div class="worker_info">
+        <p class="title">Workers:</p>
+        <div class="disc"></div>
+        <p class="worker_status">0 of 3 busy</p>
+        <button class="shop_worker" onClick="window.location='shop-items-directly.html';"></button>
+        <div class="box"></div>
+      </div>
+      <div class="shield_info">
+        <p class="title">Shield:</p>
+        <div class="disc"></div>
+        <p class="shield_status">27d 2h 23m</p>
+        <button class="shop_shield" onClick="window.location='shop-items-directly.html';"></button>
+        <div class="box"></div>
+      </div>
+    </div>
+    <div class="wrap_topright">
+      <div class="gold_info">
+        <p class="max_gold">Max: 0 000 000</p>
+        <p class="gold_qtty">0 000 000</p>
+        <div class="disc"></div>
+        <div class="box"></div>
+      </div>
+      <div class="pinkgoo_info">
+        <p class="max_pinkgoo">Max: 0 000 000</p>
+        <p class="pinkgoo_qtty">0 000 000</p>
+        <div class="disc"></div>
+        <div class="box"></div>
+      </div>
+      <div class="blackgoo_info">
+        <p class="max_blackgoo">Max: 00 000</p>
+        <p class="blackgoo_qtty">00 000</p>
+        <div class="disc"></div>
+        <div class="box"></div>
+      </div>
+      <div class="diamond_info">
+        <button class="shop_diamond" onClick="window.location='shop-items-directly.html';"></button>
+        <p class="diamond_qtty">0 000</p>
+        <div class="disc"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <button class="chat"></button>
+  <div class="wrapper_bottom">
+    <div class="war_action">
+      <button class="war"></button>
+      <button class="army"></button>
+      <button onClick="window.location='attack.html';" class="attack_action">Attack!</button>
+    </div>
+    <div class="player_action">
+      <button class="edit_map"></button>
+      <button class="achievements"></button>
+      <button class="settings"></button>
+      <button onClick="window.location='shop.html';" class="shop">Shop</button>
+    </div>
+  </div>
+
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>

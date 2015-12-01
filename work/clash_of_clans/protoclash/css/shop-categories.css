@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(61, 73, 92);
+  font: 400 1.75em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 31.33%;
+  height: 196px;
+  padding-top: 110px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+  background-color: rgb(0, 165, 236);
+  box-shadow: 0 0 0 2px rgba(70, 227, 255, 0.21) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button-1 {
+  z-index: 0;
+  margin-left: 1%;
+  background-image: url('../images/1439748454_diamond.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439748454_diamond.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439748454_diamond.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439748454_diamond.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439748454_diamond.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 100px auto, 100% 100%;
+  background-position: 50% 20%, 0% 0%;
+}
+
+._button-2 {
+  z-index: 1;
+  margin-left: 1.98047%;
+  background-image: url('../images/1439759824_pickaxe.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759824_pickaxe.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759824_pickaxe.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759824_pickaxe.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759824_pickaxe.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 100px auto, 100% 100%;
+  background-position: 50% 20%, 0% 0%;
+}
+
+._button-3 {
+  z-index: 2;
+  margin-left: 1.98698%;
+  background-image: url('../images/1439759874_christmas_tree.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759874_christmas_tree.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759874_christmas_tree.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759874_christmas_tree.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759874_christmas_tree.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 120px auto, 100% 100%;
+  background-position: 50% 10%, 0% 0%;
+}
+
+._button-4 {
+  clear: both;
+  z-index: 3;
+  margin: 25px 0 0 1%;
+  background-image: url('../images/1439594559_THE%20BATTLE%20FOR%20WESNOTH.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439594559_THE%20BATTLE%20FOR%20WESNOTH.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439594559_THE%20BATTLE%20FOR%20WESNOTH.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439594559_THE%20BATTLE%20FOR%20WESNOTH.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439594559_THE%20BATTLE%20FOR%20WESNOTH.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 80px auto, 100% 100%;
+  background-position: 50% 25%, 0% 0%;
+}
+
+._button-5 {
+  z-index: 4;
+  margin: 25px 0 0 1.98047%;
+  background-image: url('../images/1439759814_cannon.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759814_cannon.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759814_cannon.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759814_cannon.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439759814_cannon.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 90px auto, 100% 100%;
+  background-position: 50% 20%, 0% 0%;
+}
+
+._button-6 {
+  z-index: 5;
+  margin: 25px 0 0 1.84375%;
+  background-image: url('../images/1439588663_shield.png'), -webkit-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439588663_shield.png'),    -moz-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439588663_shield.png'),      -o-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439588663_shield.png'),     -ms-linear-gradient(90deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-image: url('../images/1439588663_shield.png'),         linear-gradient(360deg, hsl(207, 100%, 54%) 0%, rgb(83, 203, 255) 75.35714285714286%, rgb(111, 205, 246) 100%);
+  background-size: 72px auto, 100% 100%;
+  background-position: 50% 23%, 0% 0%;
+}
+
+@media(max-width: 800px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  ._button {
+    position: relative;
+    height: 166px;
+    padding-top: 95px;
+    font-size: 24px;
+  }
+
+  ._button-1 {
+    z-index: 0;
+    margin-left: 1.5%;
+    background-size: 80px auto, 100% 100%;
+    background-position: 50% 30%, 0% 0%;
+  }
+
+  ._button-2 {
+    z-index: 1;
+    margin-left: 1.48633%;
+    background-size: 80px auto, 100% 100%;
+    background-position: 50% 30%, 0% 0%;
+  }
+
+  ._button-3 {
+    z-index: 2;
+    margin-left: 1.99219%;
+    background-size: 100px auto, 100% 100%;
+    background-position: 50% 20%, 0% 0%;
+  }
+
+  ._button-4 {
+    z-index: 3;
+    margin-top: 15px;
+    background-size: 70px auto, 100% 100%;
+    background-position: 50% 30%, 0% 0%;
+  }
+
+  ._button-5 {
+    z-index: 4;
+    margin-top: 15px;
+    margin-left: 1.98633%;
+    background-size: 80px auto, 100% 100%;
+    background-position: 50% 25%, 0% 0%;
+  }
+
+  ._button-6 {
+    z-index: 5;
+    margin-top: 15px;
+    margin-left: 1.99219%;
+    background-size: 62px auto, 100% 100%;
+    background-position: 50% 32%, 0% 0%;
+  }
+}

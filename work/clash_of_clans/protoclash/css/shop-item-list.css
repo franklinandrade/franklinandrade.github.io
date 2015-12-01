@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(61, 73, 92);
+  font: 400 1.25em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+
+}
+
+._button {
+  display: block;
+  position: absolute;
+  width: 30.75%;
+  height: 195px;
+  padding-top: 100px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background: #000000;
+  background: url('../images/1439759878_box.png'), -webkit-linear-gradient(87deg, #6b6b6b 0%, #9e9e9e 75.35714285714286%, #c1c1c1 100%) #888888;
+  background: url('../images/1439759878_box.png'),    -moz-linear-gradient(87deg, #6b6b6b 0%, #9e9e9e 75.35714285714286%, #c1c1c1 100%) #888888;
+  background: url('../images/1439759878_box.png'),      -o-linear-gradient(87deg, #6b6b6b 0%, #9e9e9e 75.35714285714286%, #c1c1c1 100%) #888888;
+  background: url('../images/1439759878_box.png'),     -ms-linear-gradient(87deg, #6b6b6b 0%, #9e9e9e 75.35714285714286%, #c1c1c1 100%) #888888;
+  background: url('../images/1439759878_box.png'),         linear-gradient(363deg, #6b6b6b 0%, #9e9e9e 75.35714285714286%, #c1c1c1 100%) #888888;
+  background-repeat: no-repeat, repeat;
+  background-size: 80px auto, 100% 100%;
+  background-position: 50% 20%, 0% 0%;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 0 0 2px rgba(209, 209, 209, 0.26) inset, 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button-1 {
+  top: 647px;
+  left: 67.2799479166%;
+  z-index: 11;
+}
+
+._button-10 {
+  top: 0;
+  left: 67.2799999999%;
+  z-index: 2;
+}
+
+._button-11 {
+  top: 0;
+  left: 34.6399999999%;
+  z-index: 1;
+}
+
+._button-12 {
+  top: 0;
+  left: 2%;
+}
+
+._button-2 {
+  top: 647px;
+  left: 34.6393229166%;
+  z-index: 10;
+}
+
+._button-3 {
+  top: 647px;
+  left: 2%;
+  z-index: 9;
+}
+
+._button-4 {
+  top: 432px;
+  left: 67.2799479166%;
+  z-index: 8;
+}
+
+._button-5 {
+  top: 432px;
+  left: 34.6393229166%;
+  z-index: 7;
+}
+
+._button-6 {
+  top: 432px;
+  left: 2%;
+  z-index: 6;
+}
+
+._button-7 {
+  top: 215px;
+  left: 67.2799479166%;
+  z-index: 5;
+}
+
+._button-8 {
+  top: 215px;
+  left: 34.6393229166%;
+  z-index: 4;
+}
+
+._button-9 {
+  top: 215px;
+  left: 2%;
+  z-index: 3;
+}
+
+@media(max-width: 800px) {
+  body {
+    font-size: 1em;
+  }
+
+  ._button {
+    height: 161px;
+    padding-top: 75px;
+    background-size: 60px auto, 100% 100%;
+    font-size: 16px;
+  }
+
+  ._button-1,
+  ._button-2,
+  ._button-3 {
+    top: 526px;
+  }
+
+  ._button-4,
+  ._button-5,
+  ._button-6 {
+    top: 351px;
+  }
+
+  ._button-7,
+  ._button-8,
+  ._button-9 {
+    top: 175px;
+  }
+}
