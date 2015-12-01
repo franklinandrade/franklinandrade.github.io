@@ -204,12 +204,12 @@
 /* --------- */
 
 .interview_test {
-    background-image:url('../image/interview_test/Barracks.png');
+    background-image:url('../image/interview_test/barracks.png');
     background-size: cover;
 }
 
 .content .hero_image.interview_test {
-    background-image:url('../image/interview_test/Barracks.png');
+    background-image:url('../image/interview_test/barracks.png');
     background-position-y: 20%;
     
 }
