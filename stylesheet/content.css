@@ -44,12 +44,12 @@
 /* --------- */
 
 .caloric_intake {
-    background-image:url('../image/caloric_intake/screen.png');
+    background-image:url('../image/caloric_intake/screen.jpg');
     background-position-x: left;
 }
 
 .content .hero_image.caloric_intake {
-    background-image:url('../image/caloric_intake/screen.png');
+    background-image:url('../image/caloric_intake/screen.jpg');
 }
 
 /* --------- */
@@ -99,24 +99,24 @@
 /* --------- */
 
 .heroes_of_the_storm {
-    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.png');
+    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.jpg');
     background-position-x: 20%;
 }
 
 .content .hero_image.heroes_of_the_storm {
-    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.png');
+    background-image:url('../image/heroes_of_the_storm/hero_protoheroes.jpg');
     background-position-y: bottom;
 }
 
 /* --------- */
 
 .clash_of_clans {
-    background-image:url('../image/clash_of_clans/hero_protoclash.png');
+    background-image:url('../image/clash_of_clans/hero_protoclash.jpg');
     background-position-x: left;
 }
 
 .content .hero_image.clash_of_clans {
-    background-image:url('../image/clash_of_clans/hero_protoclash.png');
+    background-image:url('../image/clash_of_clans/hero_protoclash.jpg');
 }
 
 /* --------- */
